@@ -1,8 +1,12 @@
 import { createStore } from "vuex";
 
 export default createStore({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  state: {
+    countries: "",
+  },
+  mutations: {
+    positionChange(state, position) {
+      state.positionActive = position;
+    },
+  },
 });
