@@ -20,7 +20,7 @@ export default {
   methods: {
     handleScroll(country) {
       let element = document.getElementById(country);
-      VueScrollTo.scrollTo(element, 500, { offset: -45 });
+      VueScrollTo.scrollTo(element, 500, { offset: -18 });
     },
   },
   mounted() {
